@@ -1,0 +1,63 @@
+.courseHeadingContainer {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 2.5rem 0;
+}
+
+.courseHeading {
+  position: absolute;
+  font-size: var(--mediumHeading);
+  text-align: center;
+  margin: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.courseAnnouncementHeader {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.courseAnnouncementHeading {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.link {
+  text-decoration: none;
+  font-size: var(--mediumText);
+}
+
+.courseAnnouncementDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: var(--mediumHeading);
+  margin-top: 20px;
+}
+
+.courseAnnouncementCreatorContainer {
+  display: flex;
+  align-items: center;
+  font-size: var(--mediumHeading);
+}
+
+.courseAnnouncementCreator {
+  font-size: var(--normalText);
+  font-weight: bold;
+}
+
+.courseAnnouncementTime {
+  font-size: var(--normalText);
+}
+
+.coursePersonIcon {
+  width: 45px;
+  height: 45px;
+  color: var(--defaultFont);
+  margin-right: 15px;
+}

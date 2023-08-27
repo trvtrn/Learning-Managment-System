@@ -1,0 +1,86 @@
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.modalInnerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 0.5rem;
+}
+
+.subheading {
+  font-size: var(--mediumSubheading);
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.backgroundBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  width: 100%;
+  padding: 0.5rem;
+  margin: 1rem 0;
+}
+
+.codeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0 0 2rem;
+}
+
+.medalHeading {
+  margin: 0 0 1rem;
+  font-weight: normal;
+}
+
+.outlineBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 0.3rem solid;
+  border-radius: 1rem;
+  width: 15rem;
+  height: 7rem;
+  font-size: var(--mediumHeading);
+  font-weight: bold;
+}
+
+.errorMessage {
+  font-weight: normal;
+  color: #2e005f;
+  margin: 0.5rem 0.5rem 0;
+}
+
+.achievementUnlockedTrophy {
+  border-radius: 100rem;
+  width: fit-content;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.achievementHeading {
+  border-radius: 10rem;
+  width: fit-content;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,48 @@
+.homeTask {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-weight: bold;
+  padding: 32px 16px 28px;
+}
+
+.homeTaskDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.homeTaskType {
+  display: block;
+  padding: 0.2rem 0.4rem;
+  border-radius: 2px;
+  font-size: var(--normalText);
+}
+
+.homeTaskCourse {
+  font-size: var(--normalText);
+  color: var(--heading);
+  width: 420px;
+}
+
+.homeTaskDueDate {
+  font-size: var(--normalText);
+  color: var(--main);
+}
+
+.homeTaskTitle {
+  font-weight: bold;
+  font-size: var(--largeText);
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+.homeTaskSeparator {
+  width: 100%;
+  height: 0px;
+  border-top: 0.1px solid;
+}
+
+.homeTaskContainer {
+  margin: 0px 100px 70px 0px;
+}

@@ -1,0 +1,16 @@
+.quizTitle {
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: var(--smallHeading);
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.timer {
+  text-align: center;
+  margin-bottom: 1rem;
+}

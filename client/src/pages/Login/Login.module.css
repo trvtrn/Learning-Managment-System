@@ -1,0 +1,98 @@
+.login {
+  display: flex;
+  font: 'Inter';
+}
+
+.leftContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+  height: 100vh;
+  padding-left: 4rem;
+  background-color: #2e005f;
+  color: #e0d3ee;
+}
+
+.welcomeText {
+  font-weight: 700;
+  font-size: var(--mediumHeading);
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+.toodles {
+  color: #ffee93;
+  font-family: 'MuseoModerno', cursive;
+  font-size: var(--largeHeading);
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.loginText {
+  font-size: var(--smallSubheading);
+  font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 70px;
+}
+
+.accountText {
+  position: fixed;
+  font-weight: 400;
+  font-size: var(--largeText);
+  width: calc(65% - 8rem);
+  bottom: 0;
+  text-align: center;
+}
+
+.link {
+  color: #ffee93;
+}
+
+.link:visited {
+  color: #ffee93;
+}
+
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  height: 100vh;
+  padding: 0 50px 0 50px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightLoginText {
+  text-align: center;
+  font-weight: 700;
+  font-size: var(--smallSubheading);
+}
+
+.formButtonText {
+  text-transform: capitalize;
+  font-weight: 600;
+  color: white;
+}
+
+.resetText {
+  margin-top: 2rem;
+  font-size: var(--mediumText);
+  font-weight: 400;
+}
+
+.errorMessage {
+  text-align: center;
+  color: #2e005f;
+  font-weight: 400;
+  font-size: var(--normalText);
+  margin-top: 15px;
+  margin-bottom: 0;
+}

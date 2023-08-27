@@ -1,0 +1,24 @@
+.textContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardLeftSide {
+  font-size: var(--mediumSubheading);
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.cardRightSide {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.postTime {
+  margin-left: 1rem;
+  font-size: var(--normalText);
+  font-weight: 400;
+  min-width: fit-content;
+}

@@ -1,0 +1,32 @@
+.messagesContainer {
+  flex-grow: 1;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+
+.messagesContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.senderName {
+  font-size: var(--mediumText);
+}
+
+.messageContainer {
+  padding: 0.5rem;
+}
+
+.messageText {
+  margin: 0;
+  margin-top: 0.3rem;
+  font-size: var(--normalText);
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+.chatForm {
+  padding: 1rem;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 100%;
+}

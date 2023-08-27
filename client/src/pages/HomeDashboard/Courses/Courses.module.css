@@ -1,0 +1,53 @@
+.homeCourseLink {
+  width: calc(50% - 0.5rem);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1100px) {
+  .homeCourseLink {
+    width: 100%;
+  }
+}
+
+.homeCourseBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homeCourseName {
+  font-size: var(--mediumSubheading);
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+  width: calc(100% - 2rem);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.homeCourseCreatorContainer {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  align-items: center;
+}
+
+.homeCourseCreator {
+  font-size: var(--largeText);
+  margin: 0px 20px;
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.homeCourseBoxContainer {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: space-between;
+  width: 100%;
+}

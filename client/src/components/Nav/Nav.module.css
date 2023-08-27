@@ -1,0 +1,13 @@
+.navContainer {
+  position: fixed;
+  top: 0;
+  height: var(--navHeight);
+  z-index: 3;
+}
+
+.homeLink {
+  display: block;
+  text-decoration: none;
+  width: fit-content;
+  margin: 0 auto;
+}

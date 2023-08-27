@@ -1,0 +1,57 @@
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalHeading {
+  text-align: center;
+  font-size: var(--mediumSubheading);
+  margin-top: 0;
+}
+
+.categoryCardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.categoryCard {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.categoryCardName {
+  display: inline-block;
+}
+
+.addFormContainer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 3rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.formButtonContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.formLabel {
+  margin-bottom: 0.2rem;
+}
+
+.colorCircle {
+  height: 0.85rem;
+  width: 0.85rem;
+  border-radius: 0.43rem;
+}
+
+.cardInputContainer {
+  display: flex;
+  align-items: center;
+}

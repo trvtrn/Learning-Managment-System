@@ -1,0 +1,48 @@
+.quill {
+  flex-grow: 1;
+  height: fit-content;
+}
+
+.ql-toolbar {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.ql-container {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.ql-editor ul li {
+  padding-left: 0.3rem !important;
+  list-style-type: disc !important;
+}
+
+.ql-editor ol li {
+  padding-left: 0.3rem !important;
+  list-style-type: decimal !important;
+}
+
+.ql-toolbar {
+  background-color: white;
+  z-index: 2;
+}
+
+.ql-editor li::before {
+  display: none;
+}
+
+.ql-editor p {
+  width: 100%;
+}
+
+.ql-editor p img {
+  display: block;
+  margin: 0 auto;
+}
+
+.ql-editor iframe {
+  display: block;
+  margin: 0 auto;
+}

@@ -1,0 +1,54 @@
+.overviewContainer {
+  text-align: center;
+  width: 100%;
+}
+
+.overviewTitle {
+  font-size: var(--smallHeading);
+}
+
+.textContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quizTitle {
+  font-size: var(--mediumSubheading);
+  margin: 0;
+  text-align: left;
+}
+
+.h4 {
+  font-size: var(--normalText);
+  font-weight: 700;
+  margin: 0;
+}
+
+.quizTime {
+  display: flex;
+  gap: 1rem;
+}
+
+.leftSide {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.rightSide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.quizInfo {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.published {
+  font-size: var(--smallSubheading);
+}

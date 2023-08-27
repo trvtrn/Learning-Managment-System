@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+}
+
+:root {
+  --largeHeading: 6rem;
+  --mediumHeading: 3rem;
+  --smallHeading: 2.5rem;
+  --largeSubheading: 2rem;
+  --mediumSubheading: 1.3rem;
+  --smallSubheading: 1.15rem;
+  --largeText: 1rem;
+  --mediumText: 0.8rem;
+  --normalText: 0.7rem;
+  --navHeight: 3rem;
+  --sideBarWidth: 12rem;
+}
+
+.pageHeading {
+  font-size: var(--smallHeading);
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.pageContainer {
+  padding: 2.5rem 2.5rem;
+}

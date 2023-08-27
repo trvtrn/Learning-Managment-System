@@ -1,0 +1,33 @@
+.attachedFilesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.headingContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.postTitle {
+  font-size: var(--largeSubheading);
+  margin: 0;
+}
+
+.postInfo {
+  font-size: var(--normalText);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.pageSubheading {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.replyFormButtonContainer {
+  display: flex;
+  justify-content: flex-end;
+}

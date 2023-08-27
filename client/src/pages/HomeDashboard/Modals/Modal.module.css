@@ -1,0 +1,64 @@
+.homeModal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeModalContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.homeModalHeading {
+  text-align: center;
+  font-size: var(--mediumSubheading);
+  font-weight: bold;
+  margin: 30px 0px 15px;
+}
+
+.homeModalInputLabel {
+  font-weight: 400;
+  margin: 20px 0 5px;
+}
+
+.homeModalButtonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  gap: 2rem;
+}
+
+.homeModalSubheadingContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.homeModalNewUsersContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 30px 0px 15px;
+  border-radius: 5px;
+}
+
+.homeModalNewUserHeading {
+  margin: 10px;
+  font-size: var(--largeText);
+  font-weight: bold;
+}
+
+.homeModalNewUserInputContainer {
+  margin-top: 10px;
+}
+
+.tableContainer {
+  padding: 0 1.5rem;
+  max-height: 290px;
+  overflow: auto;
+}

@@ -1,0 +1,37 @@
+.contentContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.category {
+  display: inline-block;
+  margin-right: 0.5rem;
+  font-weight: bold;
+  font-size: var(--mediumText);
+}
+
+.timestamp {
+  display: inline-block;
+  margin-left: 0.5rem;
+  font-size: var(--mediumText);
+}
+
+.title {
+  font-size: var(--smallSubheading);
+  margin: 0;
+  margin-top: 0.5rem;
+}
+
+.authorName {
+  font-size: var(--normalText);
+}
+
+.cardRightSide {
+  display: flex;
+  align-items: center;
+}
+
+.personIcon {
+  margin-right: 0.6rem;
+}

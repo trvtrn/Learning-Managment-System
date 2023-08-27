@@ -1,0 +1,19 @@
+.participantsHeading {
+  margin: 0 0;
+  padding: 0.5rem;
+  font-size: var(--largeText);
+}
+
+.participantName {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: var(--mediumText);
+  margin-bottom: 0.3rem;
+}
+
+.participantList {
+  padding: 0;
+  margin: 0.5rem;
+  list-style-type: none;
+}

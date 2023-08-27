@@ -1,0 +1,22 @@
+{
+  "name": "toodles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "prepare": "husky install",
+    "lint": "eslint ./**/*.{jsx,js}"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.43.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-import": "^2.27.5",
+    "husky": "^8.0.0",
+    "jest": "^29.5.0",
+    "prettier": "^2.8.8"
+  }
+}

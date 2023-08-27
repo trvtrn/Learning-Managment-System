@@ -1,0 +1,29 @@
+.richTextBox img {
+  display: block;
+  margin: 1rem auto;
+  max-width: 100%;
+  cursor: default !important;
+}
+
+.richTextBox iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+.richTextBox blockquote {
+  border-left: 4px solid #ccc;
+  margin: 5px 0;
+  padding-left: 16px;
+}
+
+.richTextBox pre {
+  background-color: black;
+  padding: 0.5rem;
+  color: white;
+  border-radius: 5px;
+}
+
+.richTextBox {
+  width: 100%;
+  font-size: var(--mediumText);
+}

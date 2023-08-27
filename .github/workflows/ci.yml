@@ -1,0 +1,31 @@
+name: Continuous Integration
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  client-server:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [16.x, 18.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Install All Dependencies
+        run: npm install && cd client && npm install && cd ../server && npm install
+      - name: Lint Client
+        run: cd client && npx eslint
+      - name: Lint Server
+        run: cd server && npx eslint
+      - name: Run Tests
+        run: cd server && npm run test

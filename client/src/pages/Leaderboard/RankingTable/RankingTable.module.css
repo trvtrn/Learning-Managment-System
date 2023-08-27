@@ -1,0 +1,49 @@
+.medal {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 0 1rem;
+}
+
+.medalCount {
+  position: absolute;
+  font-weight: bold;
+  top: 15%;
+  margin: 0;
+  cursor: default;
+}
+
+.achievementBreakdownContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.achievementBreakdownHeading {
+  font-size: var(--largeText);
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 0;
+}
+
+.achievementBreakdownSubheading {
+  font-size: var(--mediumText);
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0.3rem;
+  border-radius: 10rem;
+}
+
+.achievementBreakdownList {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.achievementBreakdownList li {
+  margin-bottom: 0.5rem;
+  font-size: var(--mediumText);
+}
+
+.achievementBreakdownSection {
+  width: 30%;
+}

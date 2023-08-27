@@ -1,0 +1,56 @@
+@import '../../index.module.css';
+
+.pageContainer {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+.topButtonContainer,
+.screenShareButtonsContainer,
+.screenShareVideo,
+.screenShare {
+  width: 75vw;
+  min-width: calc(100vw - 300px);
+  max-width: calc(100vw - 220px);
+}
+
+.screenShareVideo {
+  position: absolute;
+  max-height: 100vh;
+}
+
+.screenShare {
+  position: absolute;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.screenShareButtonsContainer {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+  padding: 0.5rem;
+  gap: 1rem;
+}
+
+.topButtonContainer {
+  padding: 0.5rem;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  z-index: 2;
+}
+
+.topButton {
+  z-index: 2;
+  background-color: white !important;
+}
+
+.topButton:hover {
+  background-color: white !important;
+}

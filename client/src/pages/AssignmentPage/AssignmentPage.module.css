@@ -1,0 +1,50 @@
+.pageContainer {
+  margin: 3rem 5rem;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.datesContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.assignmentDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.assignmentName {
+  font-size: var(--smallHeading);
+  margin: 1rem 0 1rem;
+  text-align: center;
+}
+
+.details {
+  font-size: var(--normalText);
+  display: block;
+  margin: 0;
+}
+
+.contentContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.downloadSubmitContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: fit-content;
+  margin-left: 2rem;
+}
+
+.text {
+  font-size: var(--normalText);
+  margin: 0;
+}

@@ -1,0 +1,45 @@
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.modalInnerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 0.5rem;
+}
+
+.subheading {
+  font-size: var(--mediumSubheading);
+  text-align: center;
+}
+
+.grade {
+  font-size: var(--mediumText);
+  margin: 0;
+}
+
+.commentBox {
+  width: 100%;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  font-size: var(--normalText);
+  overflow: scroll;
+  border-radius: 5px;
+  max-height: 20rem;
+  scrollbar-width: none;
+}
+
+.commentBox::-webkit-scrollbar {
+  display: none;
+}

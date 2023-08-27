@@ -1,0 +1,14 @@
+{
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "extends": ["plugin:prettier/recommended"],
+  "env": {
+    "node": true,
+    "browser": true
+  },
+  "rules": {
+    "no-console": "off",
+    "react/prop-types": "off"
+  }
+}

@@ -1,0 +1,27 @@
+.bar {
+  position: sticky;
+  top: 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: 1px solid;
+  border-bottom: none;
+  height: 25px;
+}
+
+.outlinedBox {
+  position: relative;
+  border: 1px solid;
+  border-radius: 5px;
+  overflow: visible;
+}
+
+.contentContainer {
+  position: relative;
+  height: calc(100% - 25px);
+  overflow: scroll;
+  scrollbar-width: none;
+}
+
+.contentContainer::-webkit-scrollbar {
+  display: none;
+}

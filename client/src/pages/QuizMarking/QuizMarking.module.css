@@ -1,0 +1,10 @@
+.saveButtonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.submitter {
+  font-size: var(--mediumText);
+  font-weight: bold;
+}

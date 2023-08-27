@@ -1,0 +1,13 @@
+.inputContainer {
+  width: 100%;
+}
+
+.inputName {
+  font-size: var(--smallSubheading);
+  font-weight: bold;
+}
+
+.editContainer {
+  width: 100%;
+  padding: 2rem;
+}

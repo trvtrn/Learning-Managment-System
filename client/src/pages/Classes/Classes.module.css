@@ -1,0 +1,49 @@
+.pageSubheading {
+  font-size: var(--smallSubheading);
+}
+
+.modalHeading {
+  font-size: var(--mediumSubheading);
+  text-align: center;
+  margin-top: 0;
+}
+
+.classLabel {
+  font-size: var(--mediumSubheading);
+  margin: 0.5rem 0;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.classBox,
+.formRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.formRow {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.formInput {
+  width: 11rem;
+}
+
+.classDetails {
+  margin-left: 1rem;
+  font-size: var(--normalText);
+  min-width: fit-content;
+}
+
+.label {
+  font-weight: 400;
+  font-size: 0.6rem;
+  margin-bottom: 3px;
+}
+
+.time {
+  font-size: var(--mediumText);
+}

@@ -1,0 +1,27 @@
+.titleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.marks {
+  font-size: var(--mediumText);
+}
+
+.optionAnswerBox {
+  font-size: var(--normalText);
+  display: flex;
+  align-items: center;
+}
+
+.marks {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.questionNumber {
+  font-size: var(--largeText);
+  margin: 0;
+}

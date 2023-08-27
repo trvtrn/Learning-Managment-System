@@ -1,0 +1,6 @@
+.pageContainer {
+  padding-top: var(--navHeight);
+}
+.innerPageContainer {
+  position: relative;
+}

@@ -1,0 +1,19 @@
+.detailsContainer {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.time {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.timeInput {
+  width: 40%;
+}
+
+.dateInput {
+  width: 60%;
+}

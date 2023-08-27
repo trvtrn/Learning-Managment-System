@@ -1,0 +1,31 @@
+.categoriesFilterContainer {
+  display: flex;
+  align-items: center;
+}
+
+.categoriesContainer {
+  display: inline-flex;
+  gap: 0.5rem;
+  align-items: center;
+  overflow-x: scroll;
+  width: calc(100% - 4.5rem);
+  scrollbar-width: none;
+}
+
+.categoryButton:hover,
+.categoryButton:focus {
+  filter: brightness(95%);
+}
+
+.categoriesContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.filterLabel {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: var(--mediumText);
+  font-weight: bold;
+  width: 4.5rem;
+  height: 100%;
+}

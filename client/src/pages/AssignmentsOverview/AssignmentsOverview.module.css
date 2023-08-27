@@ -1,0 +1,29 @@
+.cardContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardDetails {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.assignmentName {
+  font-size: var(--mediumSubheading);
+  margin: 0;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.dueDate {
+  font-size: var(--normalText);
+  margin-left: 1rem;
+  min-width: fit-content;
+}
+
+.cardRightSide {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

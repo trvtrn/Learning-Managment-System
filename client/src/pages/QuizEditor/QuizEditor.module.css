@@ -1,0 +1,105 @@
+.editContainer {
+  width: 100%;
+  padding: 2rem;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 30px;
+}
+
+.timeDate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.dateSection {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.questionNumber {
+  font-size: var(--largeText);
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.optionNum {
+  font-size: var(--largeText);
+}
+
+.optionBox {
+  margin-bottom: 0.5rem;
+}
+
+.questionStyle {
+  font-size: var(--mediumText);
+  font-weight: 400;
+  margin-top: 14px;
+  margin-bottom: 0;
+}
+
+.buttonCard {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+.optionAnswerBox {
+  display: flex;
+  align-items: center;
+  font-size: var(--normalText);
+}
+
+.checkboxContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.headingContentContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  max-width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.questionInfoContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.dragHandle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
